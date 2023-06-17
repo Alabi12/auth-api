@@ -13,7 +13,7 @@
 ActiveRecord::Schema[7.0].define(version: 2023_06_16_013942) do
   create_table "companies", force: :cascade do |t|
     t.string "name"
-    t.string "establish_year"
+    t.string "established_year"
     t.string "address"
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
